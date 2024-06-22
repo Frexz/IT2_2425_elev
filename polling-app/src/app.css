@@ -1,0 +1,29 @@
+body {
+    color: #777;
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    color: orangered;
+}
+
+button {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
