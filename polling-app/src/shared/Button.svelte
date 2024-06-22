@@ -16,6 +16,7 @@
         padding: 8px 12px;
         font-weight: bold;
         box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     .primary {
