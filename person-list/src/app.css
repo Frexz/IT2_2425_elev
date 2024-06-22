@@ -1,5 +1,5 @@
 body {
-    color: #777;
+    color: black;
     background-color: #eee;
     padding: 0;
     margin: 0;
@@ -10,12 +10,20 @@ h4 {
 }
 
 button {
+    border-radius: 10px;
     background-color: white;
+    padding: 7px;
+    margin: 10px;
+}
+
+input {
+    font-style: italic;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -26,4 +34,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 7px;
+    width: 300px;
+    border-radius: 40px;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
