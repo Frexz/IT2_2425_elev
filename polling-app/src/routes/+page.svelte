@@ -6,7 +6,7 @@
     import PollList from '../components/PollList.svelte';
 
     let items = ['Current Polls', 'Add New Poll']
-    let activeItem = 'Add New Poll'
+    let activeItem = 'Current Polls'
     let polls = [
         { id: 1, question: 'Python or JavaScript?', answerA: 'Python', answerB: 'JavaScript', votesA: 9, votesB: 15 }
     ]
