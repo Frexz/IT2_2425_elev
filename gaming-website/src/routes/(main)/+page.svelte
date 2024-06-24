@@ -1,7 +1,3 @@
-<script>
-    import Title from "$lib/Title.svelte";
-</script>
-
 <div class="home">
     <h2>Welcome</h2>
     <p>
