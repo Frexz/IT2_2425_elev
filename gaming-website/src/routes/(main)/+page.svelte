@@ -5,6 +5,7 @@
     </p>
     <a href="/guides">View Guides</a>
     <a href="/about">About</a>
+    <a href="/error-test">Throw ERROR</a>
 </div>
 
 <style>

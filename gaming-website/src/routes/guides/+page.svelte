@@ -7,7 +7,7 @@
     <ul>
         {#each guides as guide}
             <li>
-                <a href={`/guides/${guide.id}`}>{ guide.title }</a>
+                <a data-sveltekit-preload-data='hover' href={`/guides/${guide.id}`}>{ guide.title }</a>
             </li>
         {/each}
     </ul>
