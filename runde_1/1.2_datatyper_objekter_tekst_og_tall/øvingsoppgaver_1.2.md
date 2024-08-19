@@ -14,9 +14,9 @@ Bruk eksempelet om flytid og regn ut tiden i timer, minutter og sekunder. I denn
 
 Gjør om flytiden til sekunder og bruk ``//`` (heltallsdivisjon) og ``%`` modulo for å gjøre det samme.
 
-Bruk ``divmod`` til å gjøre det samme. ``divmod`` utfører både heltallsdivisjon og modulo. Eksempel: ``kvotient, rest = divmos(13, 5)`` gir ``kvotient = 2`` og ``rest = 3``.
+Bruk ``divmod`` til å gjøre det samme. ``divmod`` utfører både heltallsdivisjon og modulo. Eksempel: ``kvotient, rest = divmod(13, 5)`` gir ``kvotient = 2`` og ``rest = 3``.
 
 Bruke ``datetime.timedelta`` klassen til å gjøre det samme. Den tillater at du oppgir antall timer som desimaltall og når vi gjør om objektet om til tekst med ``str()``, får vi teksten på formatet ``tt:mm:ss``. Sekundene vises med desimaler som kan fjernes. Huske å ha med ``import datetime``.
 
 ## 1.2.2
-Lag en variabel som referer til teksten 'Informasjonsteknologi 2'. Bruk IntelliSense til å utforske metodene til tekstobjektet. Beskriv spesifikt forskjellen mellom metodene ``capitalize()``, ``title()`` og ``lower()``. Bruk ``print()`` til å vise resultatene.
+Lag en variabel som referer til teksten 'jeg bor i Norge.'. Bruk IntelliSense til å utforske metodene til tekstobjektet. Beskriv spesifikt forskjellen mellom metodene ``capitalize()``, ``title()`` og ``lower()``. Bruk ``print()`` til å vise resultatene.
