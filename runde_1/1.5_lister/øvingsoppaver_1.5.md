@@ -51,3 +51,23 @@ Lag et program som ber brukeren skrive inn heltall som du legger inn i en liste.
 Når brukeren trykker Enter uten å skrive inn et heltall, skal programmet skrive ut listen og avslutte.
 
 Før programmet absluttes skal det største og laveste tallet fjernes fra listene samtidig som listen og gjennomsnittet av tallene skrives ut.
+
+## 1.5.8
+Bruk algoritmen Eratosthenes’ sil til å skrive ut alle primtallene under 100 i fem kolonner: 
+
+- Lag først en liste med tallene fra 2 til 100. 
+- Bruk det først tallet i tabellen (2) og fjern alle tallene i tabellen som er delelig med dette 
+første tallet bortsett fra tallet selv. 
+- Bruk det neste tallet i tabellen (3) og fjern alle tallene i tabellen som er delelig med 
+dette neste tallet bortsett fra tallet selv. 
+- Slik fortsetter du inntil du har testet tall mindre eller lik roten av 100, dvs 10. 
+- Skriv ut de gjenværende tallene (primtallene) i fem kolonner som vist under. 
+
+```
+Primtall under 100:
+   2   3   5   7  11
+  13  17  19  23  29
+  31  37  41  43  47
+  53  59  61  67  71
+  73  79  83  89  97  
+```
