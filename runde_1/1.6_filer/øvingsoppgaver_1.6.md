@@ -13,3 +13,6 @@ b) Bytt ``heltall.txt`` med en annen elev. Skriv et program som leser innholdet 
 Kall programfilen ``les_fra_fil.py``.
 
 ## 1.6.2
+Ta utgangspunkt i filen ``terningkast.txt``. Hver linje i filen inneholder et tall som er resultatet av et terningkast med to terninger. Husk at hvis man leser en fil, selv om filen inneholder tall, så er datatypen alltid ``string``.
+
+Regn ut gjennomsnittet av alle resultatene i filen.
