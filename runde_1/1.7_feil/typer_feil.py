@@ -1,6 +1,6 @@
-print('Hallo!'      # Syntaksfeil: mangler sluttparentes
+print('Hallo!')      # Syntaksfeil: mangler sluttparentes
       
-total = 3 + 'feil'  # Semantisk feil: meningsløst å addere et tall med en tekst.
+total = str(3) + 'feil'  # Semantisk feil: meningsløst å addere et tall med en tekst.
 
 alder = 4
 if alder >= 18:

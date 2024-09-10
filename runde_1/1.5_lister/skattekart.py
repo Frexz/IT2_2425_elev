@@ -11,9 +11,16 @@ def skriv_ut(kart):
         print()
 
 def hent_input(k):
-    x = int(input('Skriv inn x-koordinatet til skatten (1 - 10): '))
-    y = int(input('Skriv inn y-koordinatet til skatten (1 - 10): '))
+    try:
+        x = int(input('Skriv inn x-koordinatet til skatten (1 - 10): '))
+        y = int(input('Skriv inn y-koordinatet til skatten (1 - 10): '))
 
-    k[x - 1][y - 1] = 'X'
+        k[x - 1][y - 1] = 'X'
+    except IndexError:
+        print('Vennligst skriv inn heltall mellom 1 og 10')
+        hent_input(k)
+    except ValueError:
+        print('Vennligst skriv inn heltall mellom 1 og 10')
+        hent_input(k)
 
 main()
