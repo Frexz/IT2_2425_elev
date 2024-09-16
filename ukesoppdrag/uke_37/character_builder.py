@@ -1,6 +1,6 @@
 def main():
     # Oppgave a) - Fyll inn koden her
-
+    
     # Oppgave d) - Fyll inn koden her
 
     # Oppgave e) - Fyll inn koden her
