@@ -34,3 +34,10 @@ Hvis årstallene blir gjort om til desimaltall i grafen, er det flere måter å 
 ```
 df["år"] = pd.to_datetime(df["år"].astype(str), format="%Y")
 ```
+
+## 1.9.2
+Ta utgangspunkt i datasettet `bear_attacks.csv`. 
+
+a) Lag et søylediagram som viser antall bjørneangrep fordelt på månedene i året.
+
+b) Lag et sektordiagram som viser prosentfordelingen av angrepene på de ulike bjørnetypene.
