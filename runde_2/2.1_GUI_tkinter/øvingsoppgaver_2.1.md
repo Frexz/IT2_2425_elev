@@ -30,4 +30,4 @@ Du skal lage en applikasjon som beregner kaloriforbruk for en gitt aktivitet - e
     - Brukeren skal oppgi varighet på treningen i minutter i et tekstfelt.
     - Ved klikk på knappen skal kaloriforbruket for valgt aktivitet, intensitet og angitt varighet beregnes og vises.
 
-![treningskalkulator wireframe](/runde_2/2.1_GUI_tkinter/img/kaloriforbruk.png)
+![treningskalkulator wireframe](/img/kaloriforbruk.png)
