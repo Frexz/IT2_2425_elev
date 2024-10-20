@@ -15,7 +15,7 @@ b) Finn summen av tallene
 c) Finn det høyeste og laveste tallet i tuppelen
 
 ## 2.2.3
-Gitt tuplene `t1 = (1, 2, 3)` og `t2 = (4, 5, 6)`, alag en ny tuppel `t3` som føyer sammen `t1` og `t2`.
+Gitt tuplene `t1 = (1, 2, 3)` og `t2 = (4, 5, 6)`, lag en ny tuppel `t3` som føyer sammen `t1` og `t2`.
 
 ## 2.2.4
 a) Lag en tuppel med navnene `'Linda'`, `'Mina'`, `'Nina'` og `'Sanna'`.
@@ -41,6 +41,8 @@ b) Bruk utpakking for å tildele hvert av dyrene til en variabel
 c) Skriv ut hver variabel
 
 ## 2.2.7
+Lag et program som viser Fibonaccitallene under 10000 i en tabell som vist i figuren på side 79 i PDF-en.
+
 
 ## 2.2.8
 a) Lag en ordbok `bok` hvor nøkkelen `tittel` har verdien `Markens grøde`, nøkkelen `forfatter` har verdien `Knut Hamsun`, og nøkkelen `år` har verdien `1917`.
@@ -57,4 +59,17 @@ b) Legg til nøkkelen `språk` med verdien `norsk` til ordboken
 c) Fjern nøkkelen `befolkning` fra ordboken.
 
 d) Skriv ut den oppdaterte ordboken
+
+## 2.2.10
+```
+personer = [
+    {'fornavn': 'Kari', 'etternavn': 'Hansen', 'fødselsår': 2001},
+    {'fornavn': 'Gustav', 'etternavn': 'Monsen', 'fødselsår': 1995},
+    {'fornavn': 'Anette', 'etternavn': 'Ås', 'fødselsår': 1998},
+    {'fornavn': 'Marius', 'etternavn': 'Lie', 'fødselsår': 2002},
+    {'fornavn': 'Wenche', 'etternavn': 'Hovland', 'fødselsår': 1999},
+]
+```
+
+Lag et program der brukeren kan velge hvordan tabellen med dataen ovenfor skal sortere.
 
