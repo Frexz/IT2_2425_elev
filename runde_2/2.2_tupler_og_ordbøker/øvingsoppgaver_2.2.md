@@ -41,8 +41,11 @@ b) Bruk utpakking for å tildele hvert av dyrene til en variabel
 c) Skriv ut hver variabel
 
 ## 2.2.7
+<<<<<<< HEAD
 Lag et program som viser Fibonaccitallene under 10000 i en tabell som vist i figuren på side 79 i PDF-en.
 
+=======
+>>>>>>> cc0a169fc8cca16f20f190d5d92c122088ee3e79
 
 ## 2.2.8
 a) Lag en ordbok `bok` hvor nøkkelen `tittel` har verdien `Markens grøde`, nøkkelen `forfatter` har verdien `Knut Hamsun`, og nøkkelen `år` har verdien `1917`.
@@ -60,6 +63,7 @@ c) Fjern nøkkelen `befolkning` fra ordboken.
 
 d) Skriv ut den oppdaterte ordboken
 
+<<<<<<< HEAD
 ## 2.2.10
 ```
 personer = [
@@ -73,3 +77,5 @@ personer = [
 
 Lag et program der brukeren kan velge hvordan tabellen med dataen ovenfor skal sortere.
 
+=======
+>>>>>>> cc0a169fc8cca16f20f190d5d92c122088ee3e79
