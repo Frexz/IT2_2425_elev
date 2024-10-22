@@ -41,7 +41,7 @@ Output: 11
 ```
 
 ## 2.4.5
-a) Lag en funksjon som skriver ut en pyramide som vist nedenfor til venstre. Prøve å gjøre det med ``for``-løkke med bare én setning. **Tips:** ``4*" "`` er ``"    "``.
+a) Lag en funksjon som skriver ut en medium pyramide som vist nedenfor. Prøve å gjøre det med ``for``-løkke med bare én setning. **Tips:** ``4*" "`` er ``"    "``.
 
 b) Lag en funksjon som skriver ut en liten (S), medium (M) eller stor (L) pyramidel Funksjonen skal altså defineres med en parameter og kalles opp med et argument. Tillatt både store og små bokstaver.
 

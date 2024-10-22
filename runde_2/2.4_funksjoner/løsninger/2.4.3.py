@@ -6,6 +6,9 @@ def antall_vokaler(tekst):
             antall += 1
     return antall
 
+# Test
 tekst = "Vil du være med på turen i høst?"
 
 assert antall_vokaler(tekst) == 10
+
+print("Testen er bestått!")

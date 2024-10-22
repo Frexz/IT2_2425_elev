@@ -5,6 +5,9 @@ def unike_bokstaver(tekst):
             unike.append(bokstav)
     return len(unike)
 
+# Test
 tekst = "Sesam, sesam, lukk deg opp!"
 
 assert unike_bokstaver(tekst) == 11
+
+print("Testen er bestått!")
