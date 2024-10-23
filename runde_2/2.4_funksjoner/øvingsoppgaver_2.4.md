@@ -91,7 +91,7 @@ Output: 9,8
 ```
 
 ## 2.4.7
-Lag en funksjon, ``tall_med_siffer``, som tar som argument et siffer (0-9), og returnerer en liste med alle tall fra 0 til 00 som inneholder det angitte sifferet.
+Lag en funksjon, ``tall_med_siffer``, som tar som argument et siffer (0-9), og returnerer en liste med alle tall fra 0 til 100 som inneholder det angitte sifferet.
 
 ```
 ~ Eksempel ~
