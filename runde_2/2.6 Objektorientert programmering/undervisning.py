@@ -1,37 +1,35 @@
-import math
+class Dyr():
+    antall = 0
 
-class Person():
-    # Konstruktøren
-    def __init__(self, navn, gatenavn, postkode, by, tlf):
+    def __init__(self, navn, alder):
         self.navn = navn
-        self.gatenavn = gatenavn
-        self.postkode = postkode
-        self.by = by
-        self.telefonnummer = tlf
-    
-    def skriv_adresse(self):
-        print(self.navn)
-        print(self.gatenavn)
-        print(f'{self.postkode}\t{self.by}')
-        print(self.telefonnummer)
+        self.alder = alder
+        Dyr.antall += 1
 
-class Sirkel():
-    def __init__(self, r):
-        self.radius = r
-    
-    def omkrets(self):
-        return round(2*math.pi*self.radius, 2)
-    
-    def areal(self):
-        return round(math.pi*self.radius**2, 2)
-    
-    def __str__(self):
-        return f"Radius: {self.radius}\nOmkrets: {self.omkrets()}\nAreal: {self.areal()}\n"
+    def introduser(self):
+        print(f"Jeg heter {self.navn} og er {self.alder} år gammel.")
 
-sirkler = []
+    @classmethod
+    def gi_antall(cls):
+        print(f"Det er {cls.antall} dyr i dyrehagen.")
 
-for i in range(1, 11):
-    sirkler.append(Sirkel(i))
+class Katt(Dyr):
+    def __init__(self, navn, alder):
+        super().__init__(navn, alder)
+        self.antall_liv = 9
 
-for sirkel in sirkler:
-    print(sirkel)
+    def introduser(self):
+        print("Mjau!", end=" ")
+        super().introduser()
+
+class Hund(Dyr):
+    def __init__(self, navn, alder):
+        super().__init__(navn, alder)
+
+    def introduser(self):
+        print("Voff!", end=" ")
+        super().introduser()
+
+hund = Hund("Fido", 7)
+Dyr.gi_antall()
+

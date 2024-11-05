@@ -11,6 +11,7 @@ class Bruker():
 
     def __str__(self):
         return f"Brukernavn: {self.brukernavn}\nPassord: {self.passord}\n"
+    
 
 brukere = {}
 brukere["bruker123"] = Bruker("bruker123", "passord")

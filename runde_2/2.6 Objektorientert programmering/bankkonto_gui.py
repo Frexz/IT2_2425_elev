@@ -4,6 +4,9 @@ import sys
 
 
 class Bankkonto():
+
+    MIN_SALDO = -5000
+
     def __init__(self, eier):
         self.eier = eier
         self.saldo = 0
@@ -13,11 +16,11 @@ class Bankkonto():
         return ""
     
     def ta_ut(self, beløp):
-        if beløp <= self.saldo:
+        if self.saldo - beløp >= Bankkonto.MIN_SALDO:
             self.saldo -= beløp
             return ""
         else:
-            return f"Du kan ikke ta ut mer enn {self.saldo} kr."
+            return f"Du kan ikke ha en saldo på mindre enn {Bankkonto.MIN_SALDO} kr."
     
     def __str__(self):
         return f"Eier: \t{self.eier}\nSaldo: \t{self.saldo} kr"
@@ -55,7 +58,7 @@ class App:
         self.button_ut = tk.Button(self.button_frame, text="Ta ut", width=12, command=self.håndter_ta_ut)
         self.button_ut.grid(row=0, column=1, padx=10)
 
-        self.tilbakemelding = tk.Label(self.frame, text=self.melding, width=30, fg="red")
+        self.tilbakemelding = tk.Label(self.frame, text=self.melding, width=50, fg="red")
         self.tilbakemelding.pack()
 
     
