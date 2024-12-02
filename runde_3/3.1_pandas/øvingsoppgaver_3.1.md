@@ -30,3 +30,14 @@ e) Regn ut den gjennomsnittlige % *tip* av regningen (*total_bill*) for menn og 
 f) Hvor mange gjester inngår totalt i datasettet?
 
 g) Hvor mange personer (hvilken *size*) er mest vanlig (på én regning)?
+
+# Eksamensoppgave
+Du skal lage et program som leser inn informasjon fra et datasett og presenterer den. Du skal bruke datasettet fra forberedelsesdelen. Hvis du ikke har forberedt dette, kan du laste ned datasettet fra forberedelsesdelen nå.
+
+Tips: Du står fritt til å velge hvordan programmet skal presentere informasjonen, så lenge presentasjonen er godt egnet til å vise det oppgaven spør etter. Du kan også velge om du besvarer a og b i en samlet oversikt eller lager en oversikt for hvert oppgavepunkt.
+
+Programmet du lager i denne oppgaven, skal inneholde en flerlinjet kommentar øverst som beskriver de vurderingene og valgene du har gjort for å vaske og forberede datasettet til bruk med programmet ditt.
+
+a) Lag et program som finner og presenterer de ti landene i datasettet som har flest YouTube-kanaler.
+
+b) Utvid programmet til å regne ut og presentere gjennomsnittlig antall abonnenter og videovisninger per kanal for hvert av disse landene.
