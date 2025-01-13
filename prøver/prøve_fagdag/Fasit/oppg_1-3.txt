@@ -1,0 +1,12 @@
+Oppgave 1
+A)
+
+Oppgave 2
+B)
+
+Oppgave 3
+- Teller-objektet starter med verdien 5
+- 5 er ikke partall så verdien økes med 2 og tallet 7 skrives ut
+- 7 er ikke partall så verdien økes med 2 og tallet 9 skrives ut
+- 9 er ikke partall så verdien økes med 2 og tallet 11 skrives ut
+- for-løkken kjøres bare 3 ganger så utskriften blir da: 7, 9, 11
