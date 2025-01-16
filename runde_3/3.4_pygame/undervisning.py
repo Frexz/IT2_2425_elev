@@ -1,23 +1,25 @@
 import pygame as pg
 from pygame.locals import *
 
-WIDTH, HEIGHT = 400, 600
-FPS = 24
+WIDTH, HEIGHT = 600, 600
+FPS = 60
 
-class Bilde(pg.sprite.Sprite):
+class Ball(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        # Leser inn bilde og omgjør til samme format som self.screen
-        self.image = pg.image.load("ninja.png").convert_alpha()
-        # Skalerer bildet om nødvendig
-        self.image = pg.transform.scale(
-            self.image, (self.image.get_width(),
-                         self.image.get_height()))
-        # Sprite-objektet må ha et rect-attributt
+        self.image = pg.Surface((50, 50))
         self.rect = self.image.get_rect()
-        # Plasseres i midten på skjermen
         self.rect.x = (WIDTH - self.rect.width) / 2
         self.rect.y = (HEIGHT - self.rect.height) / 2
+        pg.draw.circle(self.image, "green", (25, 25), 25)
+        self.vy = 5
+    
+    def update(self):
+        self.rect.y += self.vy
+        if self.rect.y + self.rect.height >= HEIGHT or self.rect.y <= 0:
+            self.vy *= -1
+        
+
 
 class App:
     def __init__(self):
@@ -27,8 +29,7 @@ class App:
         pg.display.set_caption("pygame mal")
         self.running = True
         self.all_sprites = pg.sprite.Group()
-        self.bilde = Bilde()
-        self.all_sprites.add(self.bilde)
+        self.all_sprites.add(Ball())
     
     def handle_events(self):
         for event in pg.event.get():
@@ -41,6 +42,8 @@ class App:
     def draw(self):
         self.screen.fill("black")
         self.all_sprites.draw(self.screen)
+
+       
         pg.display.update()
     
     def run(self):

@@ -32,7 +32,7 @@ class App:
         pg.draw.circle(self.screen, "yellow", (250, 100), 50)
         pg.draw.circle(self.screen, "purple", (250, 225), 50, 10)
         pg.draw.ellipse(self.screen, "pink", (50, 300, 250, 100))
-        pg.draw.arc(self.screen, "orange", (50, 450, 250, 100), 0, 1.5*3.14, 5)
+        pg.draw.arc(self.screen, "orange", (50, 450, 100, 100), 0, 2*3.14)
         
         pg.display.update()
     
