@@ -9,7 +9,7 @@ Lag et program med følgende spesifikasjoner:
     - Se Pygame [fargeliste](https://anvilproject.org/guides/content/creating-links) for fargenavn
     - Bruk polygon til å tegne taket
 
-![alt text](hus.png)
+![alt text](lib/hus.png)
 
 ## 3.4.2
 Ta utganspunkt i filen enkel_animasjon.py og gjør følgende endringer:

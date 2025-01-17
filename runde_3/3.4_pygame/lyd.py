@@ -1,23 +1,36 @@
 import pygame as pg
 from pygame.locals import *
 
-WIDTH, HEIGHT = 400, 600
-FPS = 24
+WIDTH, HEIGHT = 600, 200
+FPS = 60
 
-class Bilde(pg.sprite.Sprite):
+class Ball(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        # Leser inn bilde og omgjør til samme format som self.screen
-        self.image = pg.image.load("lib/ninja.png").convert_alpha()
-        # Skalerer bildet om nødvendig
-        self.image = pg.transform.scale(
-            self.image, (self.image.get_width(),
-                         self.image.get_height()))
-        # Sprite-objektet må ha et rect-attributt
+
+        # Last inn lydfiler
+        self.PING = pg.mixer.Sound("lib/ping.mp3")
+        self.PONG = pg.mixer.Sound("lib/pong.mp3")
+
+        self.image = pg.Surface((50, 50))
         self.rect = self.image.get_rect()
-        # Plasseres i midten på skjermen
-        self.rect.x = (WIDTH - self.rect.width) / 2
-        self.rect.y = (HEIGHT - self.rect.height) / 2
+        self.rect.x = self.rect.width
+        self.rect.y = (HEIGHT - self.rect.height)/2
+        pg.draw.circle(self.image, pg.Color(158, 81, 196), (25, 25), 25)
+        self.vx = 5
+
+    def update(self):
+        self.rect.x += self.vx
+        # Sjekker om ballen treffer kanten
+        if self.rect.left < 0 or self.rect.right > WIDTH:
+            # Snu fartsretning
+            self.vx *= -1
+
+            # Spill av lyd
+            if self.vx < 0:
+                self.PING.play() # Traff høyre kant
+            else:
+                self.PONG.play() # Traff venstre kant
 
 class App:
     def __init__(self):
@@ -27,8 +40,7 @@ class App:
         pg.display.set_caption("pygame mal")
         self.running = True
         self.all_sprites = pg.sprite.Group()
-        self.bilde = Bilde()
-        self.all_sprites.add(self.bilde)
+        self.all_sprites.add(Ball())
     
     def handle_events(self):
         for event in pg.event.get():
