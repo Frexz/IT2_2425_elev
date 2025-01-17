@@ -23,3 +23,18 @@ Lag et program med følgende spesifikasjoner
 * Vinduet skal ha størrelsen 500x500
 * En ball med diameter 40 piksler skal gå rundt i sikrel inni vinduet.
 * Sirkelen skal ha en diameter på 400 piksler og være sentrert i vinduet.
+
+## 3.4.4
+Lag et program med følgende spesifikasjoner
+
+* Vinduet skal ha størrelsen 200x200
+* Programmmet skal vise et nytt, tilfeldig siffer mellom 1 og 3 på skjermen hvert 1,5 sekund.
+* Sifferet skal vises i 0,75 sekunder før det forsvinner fra skjermen
+* Når et nytt siffer vises, skal den tilhørende lydfile (one.mp3, two.mp3 eller three.mp3) spilles av.
+
+## 3.4.5
+Lag et program med følgende spesifikasjoner
+
+* Vinduet skal være vertikalt
+* Lag en ball hvert sekund som beveger seg nedover mot venstre eller høyre
+* Ballene skal endre retning når de treffer sideveggene
