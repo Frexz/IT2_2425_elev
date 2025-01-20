@@ -1,40 +1,33 @@
 import pygame as pg
 from pygame.locals import *
+from random import randint
 
-WIDTH, HEIGHT = 600, 600
+WIDTH, HEIGHT = 200, 200
 FPS = 60
 
-class Ball(pg.sprite.Sprite):
+class Tekst(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.Surface((50, 50))
+        self.tekst = str(randint(1, 3))
+        self.font = pg.font.SysFont("Arial", 100)
+        self.image = self.font.render(self.tekst, True, "green")
         self.rect = self.image.get_rect()
-        self.rect.x = (WIDTH - self.rect.width) / 2
-        self.rect.y = (HEIGHT - self.rect.height) / 2
-        pg.draw.circle(self.image, "green", (25, 25), 25)
-        self.vy = 3
-        self.vx = 2
+        self.rect.center = (WIDTH/2, HEIGHT/2)
+        self.timer = pg.time.get_ticks()
+        self.flag = False
     
     def update(self):
-        self.rect.x += self.vx
-        self.rect.y += self.vy
-        # Bunn
-        if self.rect.bottom >= HEIGHT:
-            self.rect.y = HEIGHT - self.rect.height
-            self.vy *= -1
-        # Topp
-        elif self.rect.top <= 0:
-            self.rect.y = 0
-            self.vy *= -1
-        # Venstre
-        elif self.rect.left <= 0:
-            self.rect.x = 0
-            self.vx *= -1
-        # Høyre
-        elif self.rect.right >= WIDTH:
-            self.rect.x = WIDTH - self.rect.width
-            self.vx *= -1
-        
+        if pg.time.get_ticks() - self.timer > 750:
+            self.timer = pg.time.get_ticks()
+
+            if self.flag:
+                self.tekst = str(randint(1, 3))
+                self.image = self.font.render(self.tekst, True, "green")
+            else:
+                self.tekst = ""
+                self.image = self.font.render(self.tekst, True, "green")
+
+            self.flag = not self.flag
 
 
 class App:
@@ -45,7 +38,7 @@ class App:
         pg.display.set_caption("pygame mal")
         self.running = True
         self.all_sprites = pg.sprite.Group()
-        self.all_sprites.add(Ball())
+        self.all_sprites.add(Tekst())
     
     def handle_events(self):
         for event in pg.event.get():
@@ -58,8 +51,6 @@ class App:
     def draw(self):
         self.screen.fill("black")
         self.all_sprites.draw(self.screen)
-
-       
         pg.display.update()
     
     def run(self):
