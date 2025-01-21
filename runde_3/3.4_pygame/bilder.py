@@ -39,7 +39,7 @@ class App:
         self.all_sprites.update()
     
     def draw(self):
-        self.screen.fill("black")
+        self.screen.fill("white")
         self.all_sprites.draw(self.screen)
         pg.display.update()
     

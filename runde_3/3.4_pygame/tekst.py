@@ -28,8 +28,8 @@ class App:
         # Tekst
         text = "Game Over"
         font = pg.font.SysFont("Arial", 50)
-        text_suface = font.render(text, True, "green")
-        self.screen.blit(text_suface, (WIDTH/2 - 100, HEIGHT/2 - 25))
+        text_surface = font.render(text, True, "green")
+        self.screen.blit(text_surface, (WIDTH/2 - 100, HEIGHT/2 - 25))
 
         pg.display.update()
     

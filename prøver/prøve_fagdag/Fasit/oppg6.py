@@ -25,11 +25,12 @@ print(f"Varmeste\n{max_year}: {max_temp}")
 last_years = df[(df["YEAR"] >= 2000) & (df["YEAR"] <= 2017)]
 last_monts = last_years[last_years.columns.difference(["YEAR"])]
 last_years["Gjennomsnittstemperatur"] = last_monts.mean(axis=1).round(1)
-print(last_monts)
 print(last_years[["YEAR", "Gjennomsnittstemperatur"]])
 
 # c)
 months_2016 = df[df["YEAR"] == 2016]
 months_2016 = months_2016.drop(columns=["YEAR"])
-sns.lineplot(data=months_2016.T, markers=True)
+print(months_2016)
+print(months_2016.T)
+sns.lineplot(data=months_2016.T)
 plt.show()

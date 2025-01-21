@@ -68,3 +68,6 @@ print("Test 5".center(40, "-"))
 print(stack.size())
 stack.pop()
 print(stack.size())
+
+tall = [1, 2, 3]
+tall.reverse()

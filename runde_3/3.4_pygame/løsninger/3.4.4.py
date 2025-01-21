@@ -15,6 +15,7 @@ class Tekst(pg.sprite.Sprite):
         self.rect.center = (WIDTH/2, HEIGHT/2)
         self.timer = pg.time.get_ticks()
         self.flag = False
+        self.sounds = [pg.mixer.Sound("1.wav"), pg.mixer.Sound("2.wav"), pg.mixer.Sound("3.wav")]
     
     def update(self):
         if pg.time.get_ticks() - self.timer > 750:
@@ -23,6 +24,8 @@ class Tekst(pg.sprite.Sprite):
             if self.flag:
                 self.tekst = str(randint(1, 3))
                 self.image = self.font.render(self.tekst, True, "green")
+
+                self.sounds[int(self.tekst) - 1].play()
             else:
                 self.tekst = ""
                 self.image = self.font.render(self.tekst, True, "green")

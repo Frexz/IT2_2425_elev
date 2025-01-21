@@ -1,31 +1,44 @@
 import pygame as pg
 from pygame.locals import *
-from math import sin, cos
+from random import randint, choice
 
-WIDTH, HEIGHT = 800, 800
+WIDTH, HEIGHT = 300, 600
 FPS = 60
 
 class Ball(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pg.Surface((40, 40), SRCALPHA)
+        self.image = pg.Surface((20, 20), pg.SRCALPHA)
         self.rect = self.image.get_rect()
-        pg.draw.circle(self.image, "darkgreen", self.rect.center, self.rect.width/2)
-        self.angle = 0
-        self.orbit_radius = WIDTH/2 - 100
-        self.rect.center = (WIDTH/2 + self.orbit_radius*cos(self.angle), HEIGHT/2 + self.orbit_radius*sin(self.angle))
+        pg.draw.circle(self.image, [randint(0, 255) for _ in range(3)], (self.rect.width/2, self.rect.height/2), self.rect.width/2)
+        self.rect.x = (WIDTH - self.rect.width/2) / 2
+        self.rect.y = self.rect.height * 2
+        self.vx = choice((-1, 1)) * 3
+        self.vy = 1
     
     def update(self):
-        self.angle += 0.01
-        self.rect.center = (WIDTH/2 + self.orbit_radius*cos(self.angle), HEIGHT/2 - self.orbit_radius*sin(self.angle))
+        self.rect.x += self.vx
+        self.rect.y += self.vy
+
+        if self.rect.left <= 0:
+            self.rect.x = 0
+            self.vx *= -1
+        
+        if self.rect.right >= WIDTH:
+            self.rect.x = WIDTH - self.rect.width
+            self.vx *= -1
+
+        if self.rect.bottom >= HEIGHT:
+            self.kill()
 
 class App:
     def __init__(self):
         pg.init()
         self.clock = pg.time.Clock()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT))
-        pg.display.set_caption("pygame mal")
+        pg.display.set_caption("Multipong")
         self.running = True
+        self.timer = pg.time.get_ticks()
         self.all_sprites = pg.sprite.Group()
         self.all_sprites.add(Ball())
     
@@ -35,12 +48,14 @@ class App:
                 self.running = False
     
     def update(self):
+        if pg.time.get_ticks() - self.timer > 1000:
+            self.timer = pg.time.get_ticks()
+            self.all_sprites.add(Ball())
         self.all_sprites.update()
     
     def draw(self):
-        self.screen.fill("#EAE2C6")
+        self.screen.fill("black")
         self.all_sprites.draw(self.screen)
-        pg.draw.circle(self.screen, "black", (WIDTH/2, HEIGHT/2), WIDTH/2 - 100, 1)
         pg.display.update()
     
     def run(self):

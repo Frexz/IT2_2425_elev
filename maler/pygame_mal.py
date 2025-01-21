@@ -2,7 +2,7 @@ import pygame as pg
 from pygame.locals import *
 
 WIDTH, HEIGHT = 400, 600
-FPS = 24
+FPS = 60
 
 class App:
     def __init__(self):

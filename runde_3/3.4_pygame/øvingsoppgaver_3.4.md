@@ -30,7 +30,7 @@ Lag et program med følgende spesifikasjoner
 * Vinduet skal ha størrelsen 200x200
 * Programmmet skal vise et nytt, tilfeldig siffer mellom 1 og 3 på skjermen hvert 1,5 sekund.
 * Sifferet skal vises i 0,75 sekunder før det forsvinner fra skjermen
-* Når et nytt siffer vises, skal den tilhørende lydfile (one.mp3, two.mp3 eller three.mp3) spilles av.
+* Når et nytt siffer vises, skal den tilhørende lydfilen (one.mp3, two.mp3 eller three.mp3) spilles av.
 
 ## 3.4.5
 Lag et program med følgende spesifikasjoner
