@@ -72,6 +72,7 @@ class App:
         self.all_sprites.add(self.padde)
         self.poeng = 0
         self.gameOver = False
+        self.font = pg.font.SysFont("Comic Sans", 14)
     
     def handle_events(self):
         for event in pg.event.get():
@@ -98,18 +99,30 @@ class App:
                     hit.rect.top = self.padde.rect.top - hit.rect.height
                     self.poeng += 1
                     self.all_sprites.add(Ball())
-
+        
         self.all_sprites.update()
     
     def draw(self):
         self.screen.fill("lightgrey")
+
+        tekst = f"Poeng: {self.poeng}"
+        tekst_surface = self.font.render(tekst, True, "black")
+        self.screen.blit(tekst_surface, (10, 10))
+
+        if self.gameOver:
+            tekst = "GAME OVER"
+            font = pg.font.SysFont("Consolas", 30)
+            tekst_surface = font.render(tekst, True, "red")
+            self.screen.blit(tekst_surface, ((WIDTH - tekst_surface.get_rect().width)/2, (HEIGHT - tekst_surface.get_rect().height)/2))
+
         self.all_sprites.draw(self.screen)
         pg.display.update()
     
     def run(self):
         while self.running:
             self.handle_events()
-            self.update()
+            if not self.gameOver:
+                self.update()
             self.draw()
             self.clock.tick(FPS)
         pg.quit()
