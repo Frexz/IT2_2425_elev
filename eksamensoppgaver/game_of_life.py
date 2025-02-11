@@ -1,3 +1,7 @@
+"""
+Brettet nullstilles med BACKSPACE og neste generasjon fås med HØYRE PILTAST
+"""
+
 import pygame as pg
 from pygame.locals import *
 from random import random
@@ -12,14 +16,14 @@ class Cell(pg.sprite.Sprite):
         super().__init__()
         self.image = pg.Surface((SQUARE, SQUARE))
         self.rect = self.image.get_rect()
-        self.color = "darkgreen"
+        self.color = "cyan"
         pg.draw.rect(self.image, self.color, (0, 0, SQUARE, SQUARE))
         self.rect.topleft = (x, y)
         self.status = True if random() < 1/3 else False
     
     def update(self):
         if self.status:
-            self.color = "darkgreen"
+            self.color = "cyan"
         else:
             self.color = "white"
 
@@ -50,6 +54,8 @@ class App:
             elif event.type == pg.KEYDOWN:
                 if event.key == pg.K_BACKSPACE:
                     self.reset()
+                elif event.key == pg.K_RIGHT:
+                    self.next_generation()
             elif event.type == pg.MOUSEBUTTONDOWN:
                 x, y = event.pos[0] // SQUARE, event.pos[1] // SQUARE
                 self.grid[y][x].status = not self.grid[y][x].status
@@ -76,6 +82,44 @@ class App:
         for i in range(ROWS):
             for j in range(KOLS):
                 self.grid[i][j].status = False
+
+    def next_generation(self):
+        to_live = []
+        to_die = []
+
+        for i in range(ROWS):
+            for j in range(KOLS):
+                cell = self.grid[i][j]
+                status = self.get_neighbors(i, j)
+
+                if cell.status and status.count(True) < 2:
+                    to_die.append(cell)
+                
+                if cell.status and status.count(True) > 3:
+                    to_die.append(cell)
+                
+                if not cell.status and status.count(True) == 3:
+                    to_live.append(cell)
+        
+        for cell in to_die:
+            cell.status = False
+
+        for cell in to_live:
+            cell.status = True
+    
+    def get_neighbors(self, i, j):
+        status = []
+        directions = [
+            (-1, 0), (1, 0), (0, -1), (0, 1),
+            (-1, -1), (-1, 1), (1, -1), (1, 1)
+        ]
+
+        for di, dj in directions:
+            ni, nj = i + di, j + dj
+            if 0 <= ni < ROWS and 0 <= nj < KOLS:
+                status.append(self.grid[ni][nj].status)
+        
+        return status
     
     def run(self):
         while self.running:
