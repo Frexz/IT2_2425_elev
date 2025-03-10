@@ -1,0 +1,11 @@
+FUNCTION bubble_sort(liste)
+    SET n TO lengden av liste
+    SET t TO 0
+    WHILE t LESSER THAN n
+        FOR hvert element i liste
+            IF element GREATER THAN neste element
+                bytt plass på element og neste element
+            ENDIF
+        ENDFOR
+    ENDWHILE
+ENDFUNCTION

@@ -1,0 +1,7 @@
+FUNCTION linear_search(liste, tall)
+    FOR hvert element i liste
+        IF element EQUAL TO tall
+            RETURN tall
+        ENDIF
+    ENDFOR
+ENDFUNCTION
