@@ -1,0 +1,27 @@
+FARKLE
+
+- Kast alle seks terninger
+- Hver gang du kaster må du velge ut terninger som du scorer poeng for
+- Du kan så velge om du vil spare poengene dine eller kaste gjenværende terninger på nytt
+- Hvis du sparer er turen din over og du scorer gitt antall poeng, hvis du kaster videre må du score
+	på terningene du kaster.
+- Hvis du ikke scorer på noen terninger mister du alle poengene dine og turen din er over.
+- Hvis du har scoret på alle seks terninger kan du kaste alle terninger på nytt og fortsette
+	å score poeng
+- Første til å få 10000 poeng vinner.
+
+Scoring
+6 like     : 3000 poeng
+2 x 3 like : 2500 poeng
+5 like     : 2000 poeng
+3 x 2 par  : 1500 poeng
+Straight   : 1500 poeng
+Fire like  : 1000 poeng
+Tre 1'ere  : 1000 poeng
+Tre 6'ere  :  600 poeng
+Tre 5'ere  :  500 poeng
+Tre 4'ere  :  400 poeng
+Tre 3'ere  :  300 poeng
+Tre 2'ere  :  200 poeng
+En 1'er    :  100 poeng
+En 5'er    :   50 poeng

@@ -1,0 +1,15 @@
+FUNCTION selection_sort(liste, n)
+    FOR hvert heltall i fra og med 0 til og med n - 2
+        SET min TO i
+        FOR hvert heltall j fra og med i + 1 til og med n - 1
+            IF liste[j] LESSER THAN liste[min]
+                SET min TO j
+            ENDIF
+        ENDFOR
+
+        IF min NOT EQUAL TO i
+            SWAP liste[i] WITH liste[min]
+        ENDIF
+    ENDFOR
+ENDFUNCTION
+
