@@ -14,7 +14,7 @@ Scoring
 6 like     : 3000 poeng
 2 x 3 like : 2500 poeng
 5 like     : 2000 poeng
-3 x 2 par  : 1500 poeng
+3 x par    : 1500 poeng
 Straight   : 1500 poeng
 Fire like  : 1000 poeng
 Tre 1'ere  : 1000 poeng

@@ -9,7 +9,7 @@ import pygame as pg
 # Man må også tegne elementet i kontruktøren med pg.draw der self.image er tegneflaten.
 class SpillElement(pg.sprite.Sprite):
     def __init__(self):
-        super.__init__()
+        super().__init__()
         self.image = pg.Surface((40, 40), pg.SRCALPHA)
         self.rect = self.image.get_rect()
     
