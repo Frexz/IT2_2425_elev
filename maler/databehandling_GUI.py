@@ -7,7 +7,7 @@ import seaborn as sns
 
 class App:
     def __init__(self):
-        # Data
+        # Data - Må tilpasses filen du bruker
         self.data = self.hent_data("tips")
 
         # Root
