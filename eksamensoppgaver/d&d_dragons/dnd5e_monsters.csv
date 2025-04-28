@@ -1,0 +1,325 @@
+Name,Size,Type,HP,Armor,Speed,CR
+Aboleth,Large,aberration,135,17,"10 ft., swim 40 ft.",10
+Acolyte,Medium,humanoid (any race),9,10,30 ft.,1
+Adult Black Dragon,Huge,dragon,195,19,"40 ft., fly 80 ft., swim 40 ft.",14
+Adult Blue Dragon,Huge,dragon,225,19,"40 ft., burrow 30 ft., fly 80 ft.",16
+Adult Brass Dragon,Huge,dragon,172,18,"40 ft., burrow 40 ft., fly 80 ft.",13
+Adult Bronze Dragon,Huge,dragon,212,19,"40 ft., fly 80 ft., swim 40 ft.",15
+Adult Copper Dragon,Huge,dragon,184,18,"40 ft., climb 40 ft., fly 80 ft.",14
+Adult Gold Dragon,Huge,dragon,256,19,"40 ft., fly 80 ft., swim 40 ft.",17
+Adult Green Dragon,Huge,dragon,207,19,"40 ft., fly 80 ft., swim 40 ft.",15
+Adult Red Dragon,Huge,dragon,256,19,"40 ft., climb 40 ft., fly 80 ft.",17
+Adult Silver Dragon,Huge,dragon,243,19,"40 ft., fly 80 ft.",16
+Adult White Dragon,Huge,dragon,200,18,"40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",13
+Air Elemental,Large,elemental,90,15,"0 ft., fly 90 ft. (hover)",5
+Ancient Black Dragon,Gargantuan,dragon,367,22,"40 ft., fly 80 ft., swim 40 ft.",21
+Ancient Blue Dragon,Gargantuan,dragon,481,22,"40 ft., burrow 40 ft., fly 80 ft.",23
+Ancient Brass Dragon,Gargantuan,dragon,297,20,"40 ft., burrow 40 ft., fly 80 ft.",20
+Ancient Bronze Dragon,Gargantuan,dragon,444,22,"40 ft., fly 80 ft., swim 40 ft.",22
+Ancient Copper Dragon,Gargantuan,dragon,350,21,"40 ft., climb 40 ft., fly 80 ft.",21
+Ancient Gold Dragon,Gargantuan,dragon,546,22,"40 ft., fly 80 ft., swim 40 ft.",24
+Ancient Green Dragon,Gargantuan,dragon,385,21,"40 ft., fly 80 ft., swim 40 ft.",22
+Ancient Red Dragon,Gargantuan,dragon,546,22,"40 ft., climb 40 ft., fly 80 ft.",24
+Ancient Silver Dragon,Gargantuan,dragon,487,22,"40 ft., fly 80 ft.",23
+Ancient White Dragon,Gargantuan,dragon,333,20,"40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",20
+Androsphinx,Large,monstrosity,199,17,"40 ft., fly 60 ft.",17
+Animated Armor,Medium,construct,33,18,25 ft.,1
+Ankheg,Large,monstrosity,39,14,"30 ft., burrow 10 ft.",2
+Ape,Medium,beast,19,12,"30 ft., climb 30 ft.",1
+Archmage,Medium,humanoid (any race),99,12,30 ft.,12
+Assassin,Medium,humanoid (any race),78,15,30 ft.,8
+Awakened Shrub,Small,plant,10,9,20 ft.,0
+Awakened Tree,Huge,plant,59,13,20 ft.,2
+Axe Beak,Large,beast,19,11,50 ft.,1
+Azer,Medium,elemental,39,17,30 ft.,2
+Baboon,Small,beast,3,12,"30 ft., climb 30 ft.",0
+Badger,Tiny,beast,3,10,"20 ft., burrow 5 ft.",0
+Balor,Huge,fiend (demon),262,19,"40 ft., fly 80 ft.",19
+Bandit,Medium,humanoid (any race),11,12,30 ft.,1
+Bandit Captain,Medium,humanoid (any race),65,15,30 ft.,2
+Barbed Devil,Medium,fiend (devil),110,15,30 ft.,5
+Basilisk,Medium,monstrosity,52,15,20 ft.,3
+Bat,Tiny,beast,1,12,"5 ft., fly 30 ft.",0
+Bearded Devil,Medium,fiend (devil),52,13,30 ft.,3
+Behir,Huge,monstrosity,168,17,"50 ft., climb 40 ft.",11
+Berserker,Medium,humanoid (any race),67,13,30 ft.,2
+Black Bear,Medium,beast,19,11,"40 ft., climb 30 ft.",1
+Black Dragon Wyrmling,Medium,dragon,33,17,"30 ft., fly 60 ft., swim 30 ft.",2
+Black Pudding,Large,ooze,85,7,"20 ft., climb 20 ft.",4
+Blink Dog,Medium,fey,22,13,40 ft.,1
+Blood Hawk,Small,beast,7,12,"10 ft., fly 60 ft.",1
+Blue Dragon Wyrmling,Medium,dragon,52,17,"30 ft., burrow 15 ft., fly 60 ft.",3
+Boar,Medium,beast,11,11,40 ft.,1
+Bone Devil,Large,fiend (devil),142,19,"40 ft., fly 40 ft.",9
+Brass Dragon Wyrmling,Medium,dragon,16,16,"30 ft., burrow 15 ft., fly 60 ft.",1
+Bronze Dragon Wyrmling,Medium,dragon,32,17,"30 ft., fly 60 ft., swim 30 ft.",2
+Brown Bear,Large,beast,34,11,"40 ft., climb 30 ft.",1
+Bugbear,Medium,humanoid (goblinoid),27,16,30 ft.,1
+Bulette,Large,monstrosity,94,17,"40 ft., burrow 40 ft.",5
+Camel,Large,beast,15,9,50 ft.,1
+Cat,Tiny,beast,2,12,"40 ft., climb 30 ft.",0
+Centaur,Large,monstrosity,45,12,50 ft.,2
+Chain Devil,Medium,fiend (devil),85,16,30 ft.,8
+Chimera,Large,monstrosity,114,14,"30 ft., fly 60 ft.",6
+Chuul,Large,aberration,93,16,"30 ft., swim 30 ft.",4
+Clay Golem,Large,construct,133,14,20 ft.,9
+Cloaker,Large,aberration,78,14,"10 ft., fly 40 ft.",8
+Cloud Giant,Huge,giant,200,14,40 ft.,9
+Cockatrice,Small,monstrosity,27,11,"20 ft., fly 40 ft.",1
+Commoner,Medium,humanoid (any race),4,10,30 ft.,0
+Constrictor Snake,Large,beast,13,12,"30 ft., swim 30 ft.",1
+Copper Dragon Wyrmling,Medium,dragon,22,16,"30 ft., climb 30 ft., fly 60 ft.",1
+Couatl,Medium,celestial,97,19,"30 ft., fly 90 ft.",4
+Crab,Tiny,beast,2,11,"20 ft., swim 20 ft.",0
+Crocodile,Large,beast,19,12,"20 ft., swim 30 ft.",1
+Cult Fanatic,Medium,humanoid (any race),33,13,30 ft.,2
+Cultist,Medium,humanoid (any race),9,12,30 ft.,1
+Darkmantle,Small,monstrosity,22,11,"10 ft., fly 30 ft.",1
+Death Dog,Medium,monstrosity,39,12,40 ft.,1
+Deep Gnome (Svirfneblin),Small,humanoid (gnome),16,15,20 ft.,1
+Deer,Medium,beast,4,13,50 ft.,0
+Deva,Medium,celestial,136,17,"30 ft., fly 90 ft.",10
+Dire Wolf,Large,beast,37,14,50 ft.,1
+Diseased Giant Rat,Small,beast,7,12,30 ft.,1
+Djinni,Large,elemental,161,17,"30 ft., fly 90 ft.",11
+Doppelganger,Medium,monstrosity (shapechanger),52,14,30 ft.,3
+Draft Horse,Large,beast,19,10,40 ft.,1
+Dragon Turtle,Gargantuan,dragon,341,20,"20 ft., swim 40 ft.",17
+Dretch,Small,fiend (demon),18,11,20 ft.,1
+Drider,Large,monstrosity,123,19,"30 ft., climb 30 ft.",6
+Drow,Medium,humanoid (elf),13,15,30 ft.,1
+Druid,Medium,humanoid (any race),27,11,30 ft.,2
+Dryad,Medium,fey,22,11,30 ft.,1
+Duergar,Medium,humanoid (dwarf),26,16,25 ft.,1
+Dust Mephit,Small,elemental,17,12,"30 ft., fly 30 ft.",1
+Eagle,Small,beast,3,12,"10 ft., fly 60 ft.",0
+Earth Elemental,Large,elemental,126,17,"30 ft., burrow 30 ft.",5
+Efreeti,Large,elemental,200,17,"40 ft., fly 60 ft.",11
+Elephant,Huge,beast,76,12,40 ft.,4
+Elk,Large,beast,13,10,50 ft.,1
+Erinyes,Medium,fiend (devil),153,18,"30 ft., fly 60 ft.",12
+Ettercap,Medium,monstrosity,44,13,"30 ft., climb 30 ft.",2
+Ettin,Large,giant,85,12,40 ft.,4
+Fire Elemental,Large,elemental,102,13,50 ft.,5
+Fire Giant,Huge,giant,162,18,30 ft.,9
+Flesh Golem,Medium,construct,93,9,30 ft.,5
+Flying Snake,Tiny,beast,5,14,"30 ft., fly 60 ft., swim 30 ft.",1
+Flying Sword,Small,construct,17,17,"0 ft., fly 50 ft. It can hover.",1
+Frog,Tiny,beast,1,11,"20 ft., swim 20 ft.",0
+Frost Giant,Huge,giant,138,15,40 ft.,8
+Gargoyle,Medium,elemental,52,15,"30 ft., fly 60 ft.",2
+Gelatinous Cube,Large,ooze,84,6,15 ft.,2
+Ghast,Medium,undead,36,13,30 ft.,2
+Ghost,Medium,undead,45,11,"0 ft., fly 40 ft. It can hover.",4
+Ghoul,Medium,undead,22,12,30 ft.,1
+Giant Ape,Huge,beast,157,12,"40 ft., climb 40 ft.",7
+Giant Badger,Medium,beast,13,10,"30 ft., burrow 10 ft.",1
+Giant Bat,Large,beast,22,13,"10 ft., fly 60 ft.",1
+Giant Boar,Large,beast,42,12,40 ft.,2
+Giant Centipede,Small,beast,4,13,"30 ft., climb 30 ft.",1
+Giant Constrictor Snake,Huge,beast,60,12,"30 ft., swim 30 ft.",2
+Giant Crab,Medium,beast,13,15,"30 ft., swim 30 ft.",1
+Giant Crocodile,Huge,beast,85,14,"30 ft., swim 50 ft.",5
+Giant Eagle,Large,beast,26,13,"10 ft., fly 80 ft.",1
+Giant Elk,Huge,beast,42,14,60 ft.,2
+Giant Fire Beetle,Small,beast,4,13,30 ft.,0
+Giant Frog,Medium,beast,18,11,"30 ft., swim 30 ft.",1
+Giant Goat,Large,beast,19,11,40 ft.,1
+Giant Hyena,Large,beast,45,12,50 ft.,1
+Giant Lizard,Large,beast,19,12,"30 ft., climb 30 ft.",1
+Giant Octopus,Large,beast,52,11,"10 ft., swim 60 ft.",1
+Giant Owl,Large,beast,19,12,"5 ft., fly 60 ft.",1
+Giant Poisonous Snake,Medium,beast,11,14,"30 ft., swim 30 ft.",1
+Giant Rat,Small,beast,7,12,30 ft.,1
+Giant Scorpion,Large,beast,52,15,40 ft.,3
+Giant Sea Horse,Large,beast,16,13,"0 ft., swim 40 ft.",1
+Giant Shark,Huge,beast,126,13,Swim 50 ft.,5
+Giant Spider,Large,beast,26,14,"30 ft., climb 30 ft.",1
+Giant Toad,Large,beast,39,11,"20 ft., swim 40 ft.",1
+Giant Vulture,Large,beast,22,10,"10 ft., fly 60 ft.",1
+Giant Wasp,Medium,beast,13,12,"10 ft., fly 50 ft.",1
+Giant Weasel,Medium,beast,9,13,40 ft.,1
+Giant Wolf Spider,Medium,beast,11,13,"40 ft., climb 40 ft.",1
+Gibbering Mouther,Medium,aberration,67,9,"10 ft., swim 10 ft.",2
+Glabrezu,Large,fiend (demon),157,17,40 ft.,9
+Gladiator,Medium,humanoid (any race),112,16,30 ft.,5
+Gnoll,Medium,humanoid (gnoll),22,15,30 ft.,1
+Goat,Medium,beast,4,10,40 ft.,0
+Goblin,Small,humanoid (goblinoid),7,15,30 ft.,1
+Gold Dragon Wyrmling,Medium,dragon,60,17,"30 ft., fly 60 ft., swim 30 ft.",3
+Gorgon,Large,monstrosity,114,19,40 ft.,5
+Gray Ooze,Medium,ooze,22,8,"10 ft., climb 10 ft.",1
+Green Dragon Wyrmling,Medium,dragon,38,17,"30 ft., fly 60 ft., swim 30 ft.",2
+Green Hag,Medium,fey,82,17,30 ft.,3
+Grick,Medium,monstrosity,27,14,"30 ft., climb 30 ft.",2
+Griffon,Large,monstrosity,59,12,"30 ft., fly 80 ft.",2
+Grimlock,Medium,humanoid (grimlock),11,11,30 ft.,1
+Guard,Medium,humanoid (any race),11,16,30 ft.,1
+Guardian Naga,Large,monstrosity,127,18,40 ft.,10
+Gynosphinx,Large,monstrosity,136,17,"40 ft., fly 60 ft.",11
+Half-Red Dragon Veteran,Medium,humanoid (human),65,18,30 ft.,5
+Harpy,Medium,monstrosity,38,11,"20 ft., fly 40 ft.",1
+Hawk,Tiny,beast,1,13,"10 ft., fly 60 ft.",0
+Hell Hound,Medium,fiend,45,15,50 ft.,3
+Hezrou,Large,fiend (demon),136,16,30 ft.,8
+Hill Giant,Huge,giant,105,13,40 ft.,5
+Hippogriff,Large,monstrosity,19,11,"40 ft, fly 60 ft.",1
+Hobgoblin,Medium,humanoid (goblinoid),11,18,30 ft.,1
+Homunculus,Tiny,construct,5,13,"20 ft., fly 40 ft.",0
+Horned Devil,Large,fiend (devil),178,18,"20 ft., fly 60 ft.",11
+Hunter Shark,Large,beast,45,12,Swim 40 ft.,2
+Hydra,Huge,monstrosity,172,15,"30 ft., swim 30 ft.",8
+Hyena,Medium,beast,5,11,50 ft.,0
+Ice Devil,Large,fiend (devil),180,18,40 ft.,14
+Ice Mephit,Small,elemental,21,11,"30 ft., fly 30 ft.",1
+Imp,Tiny,fiend (devil,10,13,"20 ft., fly 40 ft.",1
+Incubus,Medium,Fiend (Shapechanger),66,15,"30 ft., fly 60 ft.",4
+Invisible Stalker,Medium,elemental,104,14,"50 ft., fly 50 ft. (hover)",6
+Iron Golem,Large,construct,210,20,30 ft.,16
+Jackal,Small,beast,3,12,40 ft.,0
+Killer Whale,Huge,beast,90,12,Swim 60 ft.,3
+Knight,Medium,humanoid (any race),52,18,30 ft.,3
+Kobold,Small,humanoid (kobold),5,12,30 ft.,1
+Kraken,Gargantuan,monstrosity (titan),472,18,"20 ft., swim 60 ft.",23
+Lamia,Large,monstrosity,97,13,30 ft.,4
+Lemure,Medium,fiend (devil),13,7,15 ft.,0
+Lich,Medium,undead,135,17,30 ft.,21
+Lion,Large,beast,26,12,50 ft.,1
+Lizard,Tiny,beast,2,10,"20 ft., climb 20 ft.",0
+Lizardfolk,Medium,humanoid (lizardfolk),22,15,"30 ft., swim 30 ft.",1
+Mage,Medium,humanoid (any race),40,12,30 ft.,6
+Magma Mephit,Small,elemental,22,11,"30 ft., fly 30 ft.",1
+Magmin,Small,elemental,9,14,30 ft.,1
+Mammoth,Huge,beast,126,13,40 ft.,6
+Manticore,Large,monstrosity,68,14,"30 ft., fly 50 ft.",3
+Marilith,Large,fiend (demon),189,18,40 ft.,16
+Mastiff,Medium,beast,5,12,40 ft.,1
+Medusa,Medium,monstrosity,127,15,30 ft.,6
+Merfolk,Medium,humanoid (merfolk),11,11,"10 ft., swim 40 ft.",1
+Merrow,Large,monstrosity,45,13,"10 ft., swim 40 ft.",2
+Mimic,Medium,monstrosity (shapechanger),58,12,15 ft.,2
+Minotaur,Large,monstrosity,76,14,40 ft.,3
+Minotaur Skeleton,Large,undead,67,12,40 ft.,2
+Mule,Medium,beast,11,10,40 ft.,1
+Mummy,Medium,undead,58,11,20 ft.,3
+Mummy Lord,Medium,undead,97,17,20 ft.,15
+Nalfeshnee,Large,fiend (demon),184,18,"20 ft., fly 30 ft.",13
+Night Hag,Medium,fiend,112,17,30 ft.,5
+Nightmare,Large,fiend,68,13,"60 ft., fly 90 ft.",3
+Noble,Medium,humanoid (any race),9,15,30 ft.,1
+Ochre Jelly,Large,ooze,45,8,"10 ft., climb 10 ft.",2
+Octopus,Small,beast,3,12,"5 ft., swim 30 ft.",0
+Ogre,Large,giant,59,11,40 ft.,2
+Ogre Zombie,Large,undead,85,8,30 ft.,2
+Oni,Large,giant,110,16,"30 ft., fly 30 ft.",7
+Orc,Medium,humanoid (orc),15,13,30 ft.,1
+Otyugh,Large,aberration,114,14,30 ft.,5
+Owl,Tiny,beast,1,11,"5 ft., fly 60 ft.",0
+Owlbear,Large,monstrosity,59,13,40 ft.,3
+Panther,Medium,beast,13,12,"50 ft., climb 40 ft.",1
+Pegasus,Large,celestial,59,12,"60 ft., fly 90 ft.",2
+Phase Spider,Large,monstrosity,32,13,"30 ft., climb 30 ft.",3
+Pit Fiend,Large,fiend (devil),300,19,"30 ft., fly 60 ft.",20
+Planetar,Large,celestial,200,19,"40 ft., fly 120 ft.",16
+Plesiosaurus,Large,beast,68,13,"20 ft., swim 40 ft.",2
+Poisonous Snake,Tiny,beast,2,13,"30 ft., swim 30 ft.",1
+Polar Bear,Large,beast,42,12,"40 ft., swim 30 ft.",2
+Pony,Medium,beast,11,10,40 ft.,1
+Priest,Medium,humanoid (any race),27,13,25 ft.,2
+Pseudodragon,Tiny,dragon,7,13,"15 ft., fly 60 ft.",1
+Purple Worm,Gargantuan,monstrosity,247,18,"50 ft., burrow 30 ft.",15
+Quasit,Tiny,fiend (demon),7,13,40 ft.,1
+Quipper,Tiny,beast,1,13,Swim 40 ft.,0
+Rakshasa,Medium,fiend,110,16,40 ft.,13
+Rat,Tiny,beast,1,10,20 ft.,0
+Raven,Tiny,beast,1,12,"10 ft., fly 50 ft.",0
+Red Dragon Wyrmling,Medium,dragon,75,17,"30 ft., climb 30 ft., fly 60 ft.",4
+Reef Shark,Medium,beast,22,12,Swim 40 ft.,1
+Remorhaz,Huge,monstrosity,195,17,"30 ft., burrow 20 ft.",11
+Rhinoceros,Large,beast,45,11,40 ft.,2
+Riding Horse,Large,beast,13,10,60 ft.,1
+Roc,Gargantuan,monstrosity,248,15,"20 ft., fly 120 ft.",11
+Roper,Large,monstrosity,93,20,"10 ft., climb 10 ft.",5
+Rug of Smothering,Large,construct,33,12,10 ft.,2
+Rust Monster,Medium,monstrosity,27,14,40 ft.,1
+Saber-Toothed Tiger,Large,beast,52,12,40 ft.,2
+Sahuagin,Medium,humanoid (sahuagin),22,12,"30 ft., swim 40 ft.",1
+Salamander,Large,elemental,90,15,30 ft.,5
+Satyr,Medium,fey,31,14,40 ft.,1
+Scorpion,Tiny,beast,1,11,10 ft.,0
+Scout,Medium,humanoid (any race),16,13,30 ft.,1
+Sea Hag,Medium,fey,52,14,"30 ft., swim 40 ft.",2
+Sea Horse,Tiny,beast,1,11,Swim 20 ft.,0
+Shadow,Medium,undead,16,12,40 ft.,1
+Shambling Mound,Large,plant,136,15,"20 ft., swim 20 ft.",5
+Shield Guardian,Large,construct,142,17,30 ft.,7
+Shrieker,Medium,plant,13,5,0 ft.,0
+Silver Dragon Wyrmling,Medium,dragon,45,17,"30 ft., fly 60 ft.",2
+Skeleton,Medium,undead,13,13,30 ft.,1
+Solar,Large,celestial,243,21,"50 ft., fly 150 ft.",21
+Specter,Medium,undead,22,12,"0 ft., fly 50 ft. (hover)",1
+Spider,Tiny,beast,1,12,"20 ft., climb 20 ft.",0
+Spirit Naga,Large,monstrosity,75,15,40 ft.,8
+Sprite,Tiny,fey,2,15,"10 ft., fly 40 ft.",1
+Spy,Medium,humanoid (any race),27,12,30 ft.,1
+Steam Mephit,Small,elemental,21,10,"30 ft., fly 30 ft.",1
+Stirge,Tiny,beast,2,14,"10 ft., fly 40 ft.",1
+Stone Giant,Huge,giant,126,17,40 ft.,7
+Stone Golem,Large,construct,178,17,30 ft.,10
+Storm Giant,Huge,giant,230,16,"50 ft., swim 50 ft.",13
+Succubus,Medium,Fiend (Shapechanger),66,15,"30 ft., fly 60 ft.",4
+Succubus (Incubus),Medium,fiend (shapechanger),66,15,"30 ft., fly 60 ft.",4
+Swarm of Bats,Medium,swarm of tiny beasts,22,12,"0 ft., fly 30 ft.",1
+Swarm of Beetles,Medium,swarm of tiny beasts,22,12,"20 ft., burrow 5 ft., climb 20 ft.",1
+Swarm of Centipedes,Medium,swarm of tiny beasts,22,12,"20 ft., climb 20 ft.",1
+Swarm of Insects,Medium,swarm of tiny beasts,22,12,"20 ft., climb 20 ft.",1
+Swarm of Poisonous Snakes,Medium,swarm of tiny beasts,36,14,"30 ft., swim 30 ft.",2
+Swarm of Quippers,Medium,swarm of tiny beasts,28,13,"0 ft., swim 40 ft.",1
+Swarm of Rats,Medium,swarm of tiny beasts,24,10,30 ft.,1
+Swarm of Ravens,Medium,swarm of tiny beasts,24,12,"10 ft., fly 50 ft.",1
+Swarm of Spiders,Medium,swarm of tiny beasts,22,12,"20 ft., climb 20 ft.",1
+Swarm of Wasps,Medium,swarm of tiny beasts,22,12,"5 ft., fly 30 ft.",1
+Tarrasque,Gargantuan,monstrosity (titan),676,25,40 ft.,30
+Thug,Medium,humanoid (any race),32,11,30 ft.,1
+Tiger,Large,beast,37,12,40 ft.,1
+Treant,Huge,plant,138,16,30 ft.,9
+Tribal Warrior,Medium,humanoid (any race),11,12,30 ft.,1
+Triceratops,Huge,beast,95,13,50 ft.,5
+Troll,Large,giant,84,15,30 ft.,5
+Tyrannosaurus Rex,Huge,beast,136,13,50 ft.,8
+Unicorn,Large,celestial,67,12,50 ft.,5
+Vampire,Medium,undead (shapechanger),144,16,30 ft.,13
+Vampire Spawn,Medium,undead,82,15,30 ft.,5
+Veteran,Medium,humanoid (any race),58,17,30 ft.,3
+Violet Fungus,Medium,plant,18,5,5 ft.,1
+Vrock,Large,fiend (demon),104,15,"40 ft., fly 60 ft.",6
+Vulture,Medium,beast,5,10,"10 ft., fly 50 ft.",0
+Warhorse,Large,beast,19,11,60 ft.,1
+Warhorse Skeleton,Large,undead,22,13,60 ft.,1
+Water Elemental,Large,elemental,114,14,"30 ft., swim 90 ft.",5
+Weasel,Tiny,beast,1,13,30 ft.,0
+Werebear,Medium,humanoid (human,135,10,"30 ft. (40 ft., climb 30 ft. in bear or hybrid form)",5
+Wereboar,Medium,humanoid (human,78,10,30 ft. (40 ft. in boar form),4
+Wererat,Medium,humanoid (human,33,12,30 ft.,2
+Weretiger,Medium,humanoid (human,120,12,30 ft. (40 ft. in tiger form),4
+Werewolf,Medium,humanoid (human,58,11,30 ft. (40 ft. in wolf form),3
+White Dragon Wyrmling,Medium,dragon,32,16,"30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",2
+Wight,Medium,undead,45,14,30 ft.,3
+Will-o'-Wisp,Tiny,undead,22,19,"0 ft., fly 50 ft. (hover)",2
+Winter Wolf,Large,monstrosity,75,13,50 ft.,3
+Wolf,Medium,beast,11,13,40 ft.,1
+Worg,Large,monstrosity,26,13,50 ft.,1
+Wraith,Medium,undead,67,13,"0 ft., fly 60 ft. (hover)",5
+Wyvern,Large,dragon,110,13,"20 ft., fly 80 ft.",6
+Xorn,Medium,elemental,73,19,"20 ft., burrow 20 ft.",5
+Young Black Dragon,Large,dragon,127,18,"40 ft., fly 80 ft., swim 40 ft.",7
+Young Blue Dragon,Large,dragon,152,18,"40 ft., burrow 40 ft., fly 80 ft.",9
+Young Brass Dragon,Large,dragon,110,17,"40 ft., burrow 20 ft., fly 80 ft.",6
+Young Bronze Dragon,Large,dragon,142,18,"40 ft., fly 80 ft., swim 40 ft.",8
+Young Copper Dragon,Large,dragon,119,17,"40 ft., climb 40 ft., fly 80 ft.",7
+Young Gold Dragon,Large,dragon,178,18,"40 ft., fly 80 ft., swim 40 ft.",10
+Young Green Dragon,Large,dragon,136,18,"40 ft., fly 80 ft., swim 40 ft.",8
+Young Red Dragon,Large,dragon,178,18,"40 ft., climb 40 ft., fly 80 ft.",10
+Young Silver Dragon,Large,dragon,168,18,"40 ft., fly 80 ft.",9
+Young White Dragon,Large,dragon,133,17,"40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",6
+Zombie,Medium,undead,22,8,20 ft.,1
